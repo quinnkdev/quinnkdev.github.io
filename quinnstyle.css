@@ -1,5 +1,6 @@
 body {
 	background-image: url("quinnbg.png");
+	background-attachment: fixed;
 }
 
 h1 {
@@ -122,6 +123,6 @@ p.centre {
   .sidebar {
 	position: static;
 	height: 460px;
-	width: 700px;
+	width: 640px;
   }
 }

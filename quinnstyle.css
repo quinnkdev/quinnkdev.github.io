@@ -79,6 +79,7 @@ p.centre {
 .sidebar {
 	display: flex;
 	justify-content: center;
+	position: fixed;
 	flex-direction: column;
 	flex: 2;
 	background-color: black;
@@ -86,6 +87,7 @@ p.centre {
 	padding-left: 24px;
 	padding-right: 24px;
 	height: 720px;
+	width: 320px;
 }
 
 .sidebar > div {
@@ -116,5 +118,10 @@ p.centre {
 @media screen and (max-width: 700px) {
   .centerspace {   
     flex-direction: column;
+  }
+  .sidebar {
+	position: static;
+	height: 460px;
+	width: 700px;
   }
 }

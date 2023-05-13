@@ -87,10 +87,10 @@ p.centre {
 	flex-direction: column;
 	flex: 1;
 	background-color: black;
-	align-items: flex-start;
+	align-items: center;
 	padding-left: 24px;
 	padding-right: 24px;
-	height: 750px;
+	height: 800px;
 	width: 320px;
 }
 
@@ -127,7 +127,6 @@ p.centre {
   }
   .sidebar {
 	position: static;
-	align-items: center;
 	height: 750px;
 	width: auto;
   }

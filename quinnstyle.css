@@ -5,20 +5,23 @@ body {
 
 h1 {
 	color: #FF7F00;
-	font-family: courier;
+	font-family: "Monaco", "Courier New", monospace;
 	font-size: 72px;
+	line-height: 20%;
 }
 
 h2 {
 	color: #E85C12;
-	font-family: courier;
+	font-family: "Monaco", "Courier New", monospace;
 	font-size: 48px;
+	line-height: 20%;
 }
 
 h3 {
-	color: #E85C12;
-	font-family: courier;
+	color: #F07C45;
+	font-family: "Monaco", "Courier New", monospace;
 	font-size: 36px;
+	line-height: 20%;
 }
 
 p {
@@ -82,7 +85,7 @@ p.centre {
 	justify-content: center;
 	position: fixed;
 	flex-direction: column;
-	flex: 2;
+	flex: 1;
 	background-color: black;
 	align-items: flex-start;
 	padding-left: 24px;
@@ -116,13 +119,14 @@ p.centre {
 }
 
 /*this part makes it more phone compatible!*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1360px) {
   .centerspace {   
     flex-direction: column;
   }
   .sidebar {
 	position: static;
-	height: 460px;
-	width: 640px;
+	align-items: center;
+	height: auto;
+	width: auto;
   }
 }

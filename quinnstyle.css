@@ -1,0 +1,104 @@
+body {
+	background-image: url("quinnbg.png");
+}
+
+h1 {
+	color: #FF7F00;
+	font-family: courier;
+	font-size: 90px;
+}
+
+p {
+	color: white;
+	font-family: courier;
+}
+
+
+a:link {
+		color: #FF7F00;
+		text-decoration: none;
+}
+
+a:visited {
+		color: #0058FF;
+		text-decoration: none;
+}
+
+a:hover {
+		color: #0058FF;
+		text-decoration: underline;
+}
+
+a:active {
+		color: #FFFF00;
+		text-decoration: underline;
+}
+
+/*for images*/
+
+img {
+  margin-left: 20px;
+}
+
+/*for icons*/
+
+p.centre {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+/*div stuff for making your website divided into boxes*/
+
+.headerspace {
+	padding: 60px;
+}
+
+.sidespace {
+	display: flex;
+	flex: 1;
+}
+
+.footerspace {
+	padding: 40px;
+}
+
+.sidebar {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex: 2;
+	background-color: black;
+	align-items: flex-start;
+	height: 500px;
+}
+
+.sidebar > div {
+	justify-content: center;
+	flex-direction: column;
+}
+
+.mainbar {
+	display: flex;
+	flex: 4;
+	background-color: #333333;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.mainbar > div {
+	flex-direction: column;
+}
+
+.centerspace {
+	display: flex;
+}
+
+/*this part makes it more phone compatible!*/
+@media screen and (max-width: 700px) {
+  .centerspace {   
+    flex-direction: column;
+  }
+}

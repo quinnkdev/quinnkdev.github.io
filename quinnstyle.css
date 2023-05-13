@@ -5,7 +5,19 @@ body {
 h1 {
 	color: #FF7F00;
 	font-family: courier;
-	font-size: 90px;
+	font-size: 72px;
+}
+
+h2 {
+	color: #E85C12;
+	font-family: courier;
+	font-size: 48px;
+}
+
+h3 {
+	color: #E85C12;
+	font-family: courier;
+	font-size: 36px;
 }
 
 p {
@@ -71,7 +83,7 @@ p.centre {
 	flex: 2;
 	background-color: black;
 	align-items: flex-start;
-	height: 500px;
+	height: 720px;
 }
 
 .sidebar > div {

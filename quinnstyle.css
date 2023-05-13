@@ -64,7 +64,7 @@ p.centre {
 /*div stuff for making your website divided into boxes*/
 
 .headerspace {
-	padding: 60px;
+	padding: 24px;
 }
 
 .sidespace {
@@ -73,7 +73,7 @@ p.centre {
 }
 
 .footerspace {
-	padding: 40px;
+	padding: 24px;
 }
 
 .sidebar {
@@ -83,7 +83,9 @@ p.centre {
 	flex: 2;
 	background-color: black;
 	align-items: flex-start;
-	height: 720px;
+	padding-left: 24px;
+	padding-right: 24px;
+	height: 600px;
 }
 
 .sidebar > div {
@@ -97,6 +99,8 @@ p.centre {
 	background-color: #333333;
 	justify-content: center;
 	align-items: center;
+	padding-left: 24px;
+	padding-right: 24px;
 	flex-direction: column;
 }
 

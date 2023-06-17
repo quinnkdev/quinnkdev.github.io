@@ -116,7 +116,7 @@ p.centre {
 }
 
 /*this part makes it more phone compatible!*/
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1440px) {
   .centerspace {   
     flex-direction: column;
 	margin-left: 54px;
